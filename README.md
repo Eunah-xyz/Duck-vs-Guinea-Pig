@@ -1,4 +1,4 @@
-# Duck vs Guinea Pig
+# Duck🐤 vs Guinea Pig🐹
 A virtual play that generate a conversation between two ChatGPT instances.
 
 One a aggressive duck that bullies the guinea pig.
