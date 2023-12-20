@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<title>Duck VS Guinea Pig</title>
+</head>
+<body>
+
+	<h1>Duck vs Guinea Pig</h1>
+
+	<div class="container">
+		<div class="center">
+			<button id="button" type="button" onClick="refreshPage()">Chat</button>
+		</div>
+	</div>
+
+	<script>
+		function refreshPage() {
+			window.location.reload();
+		}
+	</script>
+
+	<div id="gallery-text-left" style="float:left">
+		{% for answer1 in bot1_answers_html %}
+		<p id="answer1">{{answer1}}</p>
+		{% endfor %}
+		<img src="{{url_for('static', filename='the_duck.gif')}}" id="img1" alt="image" width="442" height="442">
+	</div>
+
+	<div id="gallery-text-right" style="float:left">
+		{% for answer2 in bot2_answers_html %}
+		<p id="answer2">{{answer2}}</p>
+		{% endfor %}
+		<img src="{{url_for('static', filename='the_pig.gif')}}" id="img2" alt="image" width="442" height="360">
+	</div>
+
+
+</body>
+	</html>

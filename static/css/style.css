@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+body {
+	background-color: #FFF0C9;
+}
+
+h1 {
+	background: -webkit-linear-gradient(#FFF949, #169f69);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 50px;
+	font-family: 'Rubik Bubbles';
+	font-weight: bold;
+	text-align: center;
+}
+
+.container {
+	height: 30px;
+	position: relative;
+}
+
+.center {
+	margin: 0;
+	position: absolute;
+	left: 46%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#button {
+	float: center;
+	background-color: #f6e58d;
+	color: #000;
+	font-size: 20px;
+	font-family: Lucida Console;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	display: block;
+	width: 100px;
+	padding: 1rem;
+	border-radius: 1.5rem;
+	box-shadow: 0 10px #f9ca24;
+}
+
+p {
+	font-size: 20px;
+	font-family: Lucida Console;
+	padding: 20px;
+}
+
+#answer1 {
+	border-radius: 20px;
+	background-color: #fa9207;
+	color: #f1e7b7;
+}
+
+#answer2 {
+	border-radius: 20px;
+	background-color: #169f69;
+	color: #fdf2df;
+}
+
+#img1 {
+	float: right;
+}
+
+#img2 {
+	float: left;
+}
+
+#gallery-text-left {
+	float: left;
+	width: 48%;
+	padding: 10px;
+}
+
+#gallery-text-right {
+	/* Added */
+	width: 48%;
+	padding: 10px;
+}
